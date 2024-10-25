@@ -1,4 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { faCircle, faAddressBook } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+</script>
 
 <template>
   <div>
@@ -66,7 +69,7 @@
                   <div
                     class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
                   >
-                    <i class="fas fa-award"></i>
+                    <MdiIcon icon="mdiFaceAgent" />
                   </div>
                   <h6 class="text-xl font-semibold">Awarded Agency</h6>
                   <p class="mt-2 mb-4 text-gray-600">
@@ -84,7 +87,7 @@
                   <div
                     class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
                   >
-                    <i class="fas fa-retweet"></i>
+                    <MdiIcon icon="mdiFileFind" />
                   </div>
                   <h6 class="text-xl font-semibold">Free Revisions</h6>
                   <p class="mt-2 mb-4 text-gray-600">
@@ -102,7 +105,7 @@
                   <div
                     class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
                   >
-                    <i class="fas fa-fingerprint"></i>
+                    <MdiIcon icon="mdiDomain" />
                   </div>
                   <h6 class="text-xl font-semibold">Verified Company</h6>
                   <p class="mt-2 mb-4 text-gray-600">
@@ -118,7 +121,7 @@
               <div
                 class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
               >
-                <i class="fas fa-user-friends text-xl"></i>
+                <MdiIcon icon="mdiAccountMultiple" />
               </div>
               <h3 class="text-3xl mb-2 font-semibold leading-normal">
                 Working with us is a pleasure

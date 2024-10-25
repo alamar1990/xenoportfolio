@@ -25,7 +25,7 @@ function toggleNavbar() {
           type="button"
           @click="toggleNavbar()"
         >
-          <i class="text-white fas fa-bars"></i>
+          <MdiIcon icon="mdiMenu" style="color: white" />
         </button>
       </div>
       <div
@@ -49,10 +49,10 @@ function toggleNavbar() {
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="#pablo"
-              ><i
-                class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg"
-              ></i
-              ><span class="lg:hidden inline-block ml-2">Share</span></a
+            >
+              <MdiIcon icon="mdiFacebook" style="color: white" />
+
+              <span class="lg:hidden inline-block ml-2">Share</span></a
             >
           </li>
           <li class="flex items-center">
