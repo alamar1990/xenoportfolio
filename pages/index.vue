@@ -1,7 +1,4 @@
-<script setup lang="ts">
-import { faCircle, faAddressBook } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
