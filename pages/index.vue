@@ -1,4 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { getAllArts } from "~/services";
+
+const { data: data, pending, error } = await getAllArts({});
+
+console.log(data.value);
+</script>
 
 <template>
   <div>

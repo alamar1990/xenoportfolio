@@ -7,4 +7,10 @@ export default defineNuxtConfig({
   eslint: {
     // Aditional configs here
   },
+  runtimeConfig: {
+    public: {
+      cookieName: process.env.COOKIE_TOKEN_NAME,
+      baseUrl: process.env.BASE_URL,
+    },
+  },
 });
