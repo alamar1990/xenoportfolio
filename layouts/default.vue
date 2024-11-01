@@ -72,10 +72,10 @@ const projects = [
         </p>
 
         <div class="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-8">
-          <skill-chip> Javascript </skill-chip>
-          <skill-chip> Vue </skill-chip>
-          <skill-chip> Nuxt </skill-chip>
-          <skill-chip> TailwindCSS </skill-chip>
+          <SkillChip> Javascript </SkillChip>
+          <SkillChip> Vue </SkillChip>
+          <SkillChip> Nuxt </SkillChip>
+          <SkillChip> TailwindCSS </SkillChip>
         </div>
 
         <div class="text-center mb-4">
