@@ -4,7 +4,7 @@ const projects = [
     name: "VueShop",
     description:
       "An e-commerce platform built with Vue.js and Vuetify, featuring user authentication, product search, and online payment.",
-    image: "/images/projects/1.jpeg",
+    image: "/images/generated_video.gif",
     link: "#",
   },
   {
@@ -25,13 +25,13 @@ const projects = [
 </script>
 
 <template>
-  <section class="bg-secondary text-white py-20">
+  <section class="bg-secondary text-white py-10">
     <div class="container grid md:grid-cols-2">
       <div class="col-span-1 flex flex-col justify-center items-start">
-        <h1 class="text-5xl mb-4">Hello there!</h1>
+        <h1 class="text-5xl mb-4">Hello there, this is Alain!</h1>
 
         <p class="text-2xl mb-8">
-          A frontend developer specializing in Vue & Nuxt.
+          I'm frontend developer specializing in Vue & Nuxt.
         </p>
 
         <button
@@ -43,7 +43,7 @@ const projects = [
       </div>
 
       <div class="col-span-1 flex justify-end">
-        <img src="~/assets/images/vue-logo.webp" class="h-[350px]" />
+        <img src="~/assets/images/logo3d.png" class="h-[450px]" />
       </div>
     </div>
   </section>
@@ -52,18 +52,17 @@ const projects = [
   <section id="about" class="py-16 bg-neutral">
     <div class="container mx-auto text-center">
       <img
-        src="~/assets/images/avatar.jpeg"
-        alt="Kareem Dabbeet"
+        src="~/assets/images/me.png"
+        alt="Alain Marquez"
         class="rounded-full w-48 h-48 mx-auto mb-6 shadow-xl border-4 border-dashed border-primary"
       />
 
       <p
         class="text-gray-700 max-w-4xl mx-auto text-lg leading-loose mb-6 px-4"
       >
-        Hey there! I’m Alain Marquez Perez, a frontend enthusiast who lives and
-        breathes Vue and Nuxt. I’m all about crafting web experiences that look
-        great and run even better—because, honestly, tech should be smooth, not
-        stressful!
+        And yes... I'm frontend enthusiast who lives and breathes Vue and Nuxt.
+        I’m all about crafting web experiences that look great and run even
+        better—because, honestly, tech should be smooth, not stressful!
       </p>
 
       <div class="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-8">
@@ -116,7 +115,7 @@ const projects = [
       Interested in collaborating or just want to say hi? Drop me a message!
     </p>
     <a
-      href="mailto:kareemda1@gmail.com"
+      href="mailto:alamarquez90@gmail.com"
       class="inline-block bg-primary text-neutral px-8 py-4 rounded-full text-lg font-semibold transform transition-all duration-300 hover:bg-opacity-90 hover:scale-105"
     >
       Contact Me

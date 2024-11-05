@@ -11,7 +11,7 @@ const headerLinks = [
 <template>
   <header class="bg-secondary text-white p-6">
     <div class="container mx-auto flex justify-between items-center">
-      <div class="text-xl font-light uppercase">Alain Marquez</div>
+      <div class="text-xl font-light uppercase"></div>
 
       <nav class="hidden md:block">
         <ul class="flex gap-x-4">
