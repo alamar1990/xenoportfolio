@@ -8,7 +8,11 @@ export default defineNuxtConfig({
     "@nuxt/eslint",
     "nuxt-mdi",
     "@nuxtjs/google-fonts",
+    "@nuxt/image",
   ],
+  image: {
+    dir: "assets/images",
+  },
   googleFonts: {
     families: {
       Lato: [100, 300, 400, 700, 900],

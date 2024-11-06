@@ -25,7 +25,7 @@ const projects = [
 </script>
 
 <template>
-  <section class="bg-secondary text-white py-10">
+  <section class="bg-secondary text-white">
     <div class="container grid md:grid-cols-2">
       <div class="col-span-1 flex flex-col justify-center items-start">
         <h1 class="text-5xl mb-4">Hello there, this is Alain!</h1>
@@ -49,7 +49,7 @@ const projects = [
   </section>
 
   <!-- About Me Section -->
-  <section id="about" class="py-16 bg-neutral">
+  <section id="about" class="py-8 bg-neutral">
     <div class="container mx-auto text-center">
       <img
         src="~/assets/images/me.png"
@@ -65,11 +65,15 @@ const projects = [
         better—because, honestly, tech should be smooth, not stressful!
       </p>
 
+      <!--      <div class="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-8">-->
+      <!--        <SkillChip> Javascript </SkillChip>-->
+      <!--        <SkillChip> Vue </SkillChip>-->
+      <!--        <SkillChip> Nuxt </SkillChip>-->
+      <!--        <SkillChip> TailwindCSS </SkillChip>-->
+      <!--      </div>-->
+
       <div class="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-8">
-        <SkillChip> Javascript </SkillChip>
-        <SkillChip> Vue </SkillChip>
-        <SkillChip> Nuxt </SkillChip>
-        <SkillChip> TailwindCSS </SkillChip>
+        <Skills />
       </div>
 
       <div class="text-center mb-4">
