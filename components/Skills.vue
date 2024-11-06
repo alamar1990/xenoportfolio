@@ -2,14 +2,15 @@
   <div>
     <section class="bg-tertiary py-6">
       <div class="container mx-auto">
-        <div class="grid grid-cols-8 md:grid-flow-row">
-          <div
+        <h2 class="text-primary text-3xl mb-8 text-center">My Skills</h2>
+        <div class="flex flex-wrap items-center justify-center gap-1">
+          <NuxtImg
             v-for="skill in skills"
             :key="skill.title"
-            class="flex items-center justify-center gap-x-4"
-          >
-            <NuxtImg :src="skill.img" :alt="skill.title" width="64" />
-          </div>
+            :src="skill.img"
+            :alt="skill.title"
+            width="64"
+          />
         </div>
       </div>
     </section>
