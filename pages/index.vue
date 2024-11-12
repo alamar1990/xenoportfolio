@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import GlitchingText from "~/components/GlitchingText.vue";
+
 const projects = [
   {
     name: "VueShop",
@@ -28,11 +30,10 @@ const projects = [
   <section class="bg-secondary text-white">
     <div class="container grid md:grid-cols-2">
       <div class="col-span-1 flex flex-col justify-center items-start">
-        <h1 class="text-5xl mb-4">Hello there, this is Alain!</h1>
-
-        <p class="text-2xl mb-8">
-          I'm frontend developer specializing in Vue & Nuxt.
-        </p>
+        <GlitchingText
+          text="Hi there! I'm <Alain/>"
+          subtitle="I'm frontend developer specializing in Vue & Nuxt."
+        />
 
         <button
           class="bg-primary text-white px-8 py-4 rounded-full hover:bg-opacity-90 transition duration-300"
@@ -60,9 +61,9 @@ const projects = [
       <p
         class="text-gray-700 max-w-4xl mx-auto text-lg leading-loose mb-6 px-4"
       >
-        And yes... I'm frontend enthusiast who lives and breathes Vue and Nuxt.
-        I’m all about crafting web experiences that look great and run even
-        better—because, honestly, tech should be smooth, not stressful!
+        And yes... I'm frontend engineer who enjoys Vue and Nuxt. I’m all about
+        crafting web experiences that look great and run even better—because,
+        honestly, tech should be smooth, not stressful!
       </p>
 
       <!--      <div class="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-8">-->
